@@ -1,5 +1,7 @@
 package com.company;
 
+import jdk.nashorn.internal.ir.LiteralNode;
+
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -90,15 +92,61 @@ public class Day200131 {
         return cnt;
     }
 
-    public int binaryGap(int N) {
+    public static int binaryGap(int N) {
 
-        return 0;
+        String binaryStr = Integer.toBinaryString(N);
+
+        int answer = 0;
+
+        int cnt = 0;
+
+        for(int i=0 ; i< binaryStr.length(); i++){
+            if(binaryStr.charAt(i) == '1'){
+                if(cnt > answer){
+                    answer = cnt;
+                }
+                cnt = 0;
+            } else {
+                cnt++;
+            }
+
+        }
+
+        return answer;
 
     }
 
-    public static void main(String[] args) {
+    public class ListNode {
+        int val;
+        ListNode next;
+        ListNode(int x) { val = x; }
+    }
 
+    public ListNode addTwoNum(ListNode l1, ListNode l2) {
+        ListNode dummyHead = new ListNode(0);
+        ListNode p = l1, q = l2, curr = dummyHead;
+        int carry = 0;
+        while(p != null || q != null) {
+            int x = ( p != null ) ? p.val : 0 ;
+            int y = ( q != null ) ? q.val : 0 ;
+            int sum = carry + x + y;
+            carry = sum/10;
+            curr.next = new ListNode(sum % 10);
+            curr = curr.next;
+            if (p != null) p = p.next;
+            if( q != null) q = q.next;
+        }
+        if (carry > 0) {
+            curr.next = new ListNode(carry);
+        }
+        return dummyHead.next;
+    }
 
+    public void main(String[] args) {
+
+        int a = binaryGap(32);
+
+        System.out.println(a);
 
     }
 }
