@@ -1,4 +1,5 @@
-package com.company;
+package com.
+        company;
 
 public class Day200317 {
 
@@ -26,6 +27,26 @@ public class Day200317 {
         }
 
         return answer;
+    }
+
+    public boolean checkRecord(String s) {
+
+        int lateCount = 0;
+        int absentCount = 0;
+
+        for(int i=0; i<s.length(); i++) {
+            char c = s.charAt(i);
+            if(c == 'L') {
+                if(++lateCount == 3) return false;
+            } else if(c == 'A') {
+                lateCount = 0;
+                if(++absentCount == 2) return false;
+            } else {
+                lateCount = 0;
+            }
+        }
+
+        return true;
     }
 
     public static void main(String[] args) {
