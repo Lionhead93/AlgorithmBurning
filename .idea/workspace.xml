@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f1fd020-9e46-49ed-9295-3c08ffb6ee36" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/company/Day200318.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Day200317.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Day200317.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +44,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
-  <component name="RunManager" selected="Application.Day200317">
+  <component name="RunManager" selected="Application.Day200318">
     <configuration name="Day200210" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Day200210" />
       <module name="burning" />
@@ -97,23 +97,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Day200131" />
+    <configuration name="Day200318" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Day200318" />
       <module name="burning" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Day200318" />
         <item itemvalue="Application.Day200317" />
         <item itemvalue="Application.Day200224" />
         <item itemvalue="Application.Day200211" />
         <item itemvalue="Application.Day200210" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +151,8 @@
       <workItem from="1581306309217" duration="1820000" />
       <workItem from="1581382377556" duration="821000" />
       <workItem from="1582511044699" duration="1441000" />
-      <workItem from="1584421171882" duration="2478000" />
+      <workItem from="1584421171882" duration="3077000" />
+      <workItem from="1584430146078" duration="3113000" />
     </task>
     <servers />
   </component>
@@ -164,26 +168,30 @@
       <screen x="1920" y="0" width="1707" height="920" />
     </state>
     <state x="2554" y="215" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1707.920@1920.0.1707.920" timestamp="1580707658912" />
-    <state width="1878" height="261" key="GridCell.Tab.0.bottom" timestamp="1584423992690">
-      <screen x="2048" y="134" width="1920" height="1057" />
+    <state width="1931" height="284" key="GridCell.Tab.0.bottom" timestamp="1584511296982">
+      <screen x="73" y="23" width="1975" height="1129" />
     </state>
     <state width="1662" height="296" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1707.920@1920.0.1707.920" timestamp="1582512349042" />
-    <state width="1878" height="261" key="GridCell.Tab.0.bottom/73.23.1975.1129/2048.134.1920.1057@2048.134.1920.1057" timestamp="1584423992690" />
-    <state width="1878" height="261" key="GridCell.Tab.0.center" timestamp="1584423992690">
-      <screen x="2048" y="134" width="1920" height="1057" />
+    <state width="1878" height="261" key="GridCell.Tab.0.bottom/73.23.1975.1129/2048.134.1920.1057@2048.134.1920.1057" timestamp="1584425157012" />
+    <state width="1931" height="284" key="GridCell.Tab.0.bottom/73.23.1975.1129/2048.134.1920.1057@73.23.1975.1129" timestamp="1584511296982" />
+    <state width="1931" height="284" key="GridCell.Tab.0.center" timestamp="1584511296981">
+      <screen x="73" y="23" width="1975" height="1129" />
     </state>
     <state width="1662" height="296" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1707.920@1920.0.1707.920" timestamp="1582512349042" />
-    <state width="1878" height="261" key="GridCell.Tab.0.center/73.23.1975.1129/2048.134.1920.1057@2048.134.1920.1057" timestamp="1584423992690" />
-    <state width="1878" height="261" key="GridCell.Tab.0.left" timestamp="1584423992689">
-      <screen x="2048" y="134" width="1920" height="1057" />
+    <state width="1878" height="261" key="GridCell.Tab.0.center/73.23.1975.1129/2048.134.1920.1057@2048.134.1920.1057" timestamp="1584425157011" />
+    <state width="1931" height="284" key="GridCell.Tab.0.center/73.23.1975.1129/2048.134.1920.1057@73.23.1975.1129" timestamp="1584511296981" />
+    <state width="1931" height="284" key="GridCell.Tab.0.left" timestamp="1584511296981">
+      <screen x="73" y="23" width="1975" height="1129" />
     </state>
     <state width="1662" height="296" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1707.920@1920.0.1707.920" timestamp="1582512349042" />
-    <state width="1878" height="261" key="GridCell.Tab.0.left/73.23.1975.1129/2048.134.1920.1057@2048.134.1920.1057" timestamp="1584423992689" />
-    <state width="1878" height="261" key="GridCell.Tab.0.right" timestamp="1584423992690">
-      <screen x="2048" y="134" width="1920" height="1057" />
+    <state width="1878" height="261" key="GridCell.Tab.0.left/73.23.1975.1129/2048.134.1920.1057@2048.134.1920.1057" timestamp="1584425157011" />
+    <state width="1931" height="284" key="GridCell.Tab.0.left/73.23.1975.1129/2048.134.1920.1057@73.23.1975.1129" timestamp="1584511296981" />
+    <state width="1931" height="284" key="GridCell.Tab.0.right" timestamp="1584511296982">
+      <screen x="73" y="23" width="1975" height="1129" />
     </state>
     <state width="1662" height="296" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1707.920@1920.0.1707.920" timestamp="1582512349042" />
-    <state width="1878" height="261" key="GridCell.Tab.0.right/73.23.1975.1129/2048.134.1920.1057@2048.134.1920.1057" timestamp="1584423992690" />
+    <state width="1878" height="261" key="GridCell.Tab.0.right/73.23.1975.1129/2048.134.1920.1057@2048.134.1920.1057" timestamp="1584425157012" />
+    <state width="1931" height="284" key="GridCell.Tab.0.right/73.23.1975.1129/2048.134.1920.1057@73.23.1975.1129" timestamp="1584511296982" />
     <state x="2518" y="86" key="RollbackChangesDialog" timestamp="1580703136620">
       <screen x="1920" y="0" width="1707" height="920" />
     </state>
