@@ -30,12 +30,5 @@ public class Day200345 {
         return ans >= 0 ? String.format("%02d:%02d", ans / 60, ans % 60) : "";
     }
 
-    public void update(int i, int val) {
-
-    }
-
-    public int sumRange(int i, int j) {
-
-    }
 
 }
