@@ -44,6 +44,7 @@ public class Day200331 {
                 }
                 if(sb.toString().equals(str)) return true;
             }
+
         }
         return false;
     }
