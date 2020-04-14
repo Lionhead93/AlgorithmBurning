@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f1fd020-9e46-49ed-9295-3c08ffb6ee36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/Day200410.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/CombinationIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Day200413.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Day200414.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,33 +46,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.Day200408">
-    <configuration name="Day200317" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Day200317" />
-      <module name="burning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day200318" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Day200318" />
-      <module name="burning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Day200414">
     <configuration name="Day200320" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Day200320" />
       <module name="burning" />
@@ -110,13 +86,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day200413" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Day200413" />
+      <module name="burning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day200414" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Day200414" />
+      <module name="burning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Day200414" />
+        <item itemvalue="Application.Day200413" />
         <item itemvalue="Application.Day200408" />
         <item itemvalue="Application.Day200406" />
         <item itemvalue="Application.Day200320" />
-        <item itemvalue="Application.Day200318" />
-        <item itemvalue="Application.Day200317" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +161,7 @@
       <workItem from="1585643021576" duration="2508000" />
       <workItem from="1586134673594" duration="2840000" />
       <workItem from="1586148094205" duration="737000" />
-      <workItem from="1586325985882" duration="15844000" />
+      <workItem from="1586325985882" duration="40496000" />
     </task>
     <servers />
   </component>
@@ -187,38 +189,38 @@
       <screen x="1920" y="0" width="1707" height="920" />
     </state>
     <state x="2554" y="215" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1707.920@1920.0.1707.920" timestamp="1580707658912" />
-    <state width="1931" height="355" key="GridCell.Tab.0.bottom" timestamp="1586329311315">
+    <state width="1931" height="284" key="GridCell.Tab.0.bottom" timestamp="1586844246999">
       <screen x="73" y="23" width="1975" height="1129" />
     </state>
     <state width="1662" height="296" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1707.920@1920.0.1707.920" timestamp="1582512349042" />
     <state width="1931" height="284" key="GridCell.Tab.0.bottom/67.23.1981.1129/2048.134.1920.1057@67.23.1981.1129" timestamp="1586149937027" />
     <state width="1931" height="284" key="GridCell.Tab.0.bottom/70.23.1978.1129/2048.134.1920.1057@70.23.1978.1129" timestamp="1584685188782" />
     <state width="938" height="284" key="GridCell.Tab.0.bottom/73.23.1975.1129/2048.134.1920.1057@2048.134.1920.1057" timestamp="1584581965286" />
-    <state width="1931" height="355" key="GridCell.Tab.0.bottom/73.23.1975.1129/2048.134.1920.1057@73.23.1975.1129" timestamp="1586329311315" />
-    <state width="1931" height="355" key="GridCell.Tab.0.center" timestamp="1586329311315">
+    <state width="1931" height="284" key="GridCell.Tab.0.bottom/73.23.1975.1129/2048.134.1920.1057@73.23.1975.1129" timestamp="1586844246999" />
+    <state width="1931" height="284" key="GridCell.Tab.0.center" timestamp="1586844246999">
       <screen x="73" y="23" width="1975" height="1129" />
     </state>
     <state width="1662" height="296" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1707.920@1920.0.1707.920" timestamp="1582512349042" />
     <state width="1931" height="284" key="GridCell.Tab.0.center/67.23.1981.1129/2048.134.1920.1057@67.23.1981.1129" timestamp="1586149937026" />
     <state width="1931" height="284" key="GridCell.Tab.0.center/70.23.1978.1129/2048.134.1920.1057@70.23.1978.1129" timestamp="1584685188782" />
     <state width="938" height="284" key="GridCell.Tab.0.center/73.23.1975.1129/2048.134.1920.1057@2048.134.1920.1057" timestamp="1584581965285" />
-    <state width="1931" height="355" key="GridCell.Tab.0.center/73.23.1975.1129/2048.134.1920.1057@73.23.1975.1129" timestamp="1586329311315" />
-    <state width="1931" height="355" key="GridCell.Tab.0.left" timestamp="1586329311314">
+    <state width="1931" height="284" key="GridCell.Tab.0.center/73.23.1975.1129/2048.134.1920.1057@73.23.1975.1129" timestamp="1586844246999" />
+    <state width="1931" height="284" key="GridCell.Tab.0.left" timestamp="1586844246999">
       <screen x="73" y="23" width="1975" height="1129" />
     </state>
     <state width="1662" height="296" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1707.920@1920.0.1707.920" timestamp="1582512349042" />
     <state width="1931" height="284" key="GridCell.Tab.0.left/67.23.1981.1129/2048.134.1920.1057@67.23.1981.1129" timestamp="1586149937026" />
     <state width="1931" height="284" key="GridCell.Tab.0.left/70.23.1978.1129/2048.134.1920.1057@70.23.1978.1129" timestamp="1584685188781" />
     <state width="938" height="284" key="GridCell.Tab.0.left/73.23.1975.1129/2048.134.1920.1057@2048.134.1920.1057" timestamp="1584581965285" />
-    <state width="1931" height="355" key="GridCell.Tab.0.left/73.23.1975.1129/2048.134.1920.1057@73.23.1975.1129" timestamp="1586329311314" />
-    <state width="1931" height="355" key="GridCell.Tab.0.right" timestamp="1586329311315">
+    <state width="1931" height="284" key="GridCell.Tab.0.left/73.23.1975.1129/2048.134.1920.1057@73.23.1975.1129" timestamp="1586844246999" />
+    <state width="1931" height="284" key="GridCell.Tab.0.right" timestamp="1586844246999">
       <screen x="73" y="23" width="1975" height="1129" />
     </state>
     <state width="1662" height="296" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1707.920@1920.0.1707.920" timestamp="1582512349042" />
     <state width="1931" height="284" key="GridCell.Tab.0.right/67.23.1981.1129/2048.134.1920.1057@67.23.1981.1129" timestamp="1586149937027" />
     <state width="1931" height="284" key="GridCell.Tab.0.right/70.23.1978.1129/2048.134.1920.1057@70.23.1978.1129" timestamp="1584685188782" />
     <state width="938" height="284" key="GridCell.Tab.0.right/73.23.1975.1129/2048.134.1920.1057@2048.134.1920.1057" timestamp="1584581965286" />
-    <state width="1931" height="355" key="GridCell.Tab.0.right/73.23.1975.1129/2048.134.1920.1057@73.23.1975.1129" timestamp="1586329311315" />
+    <state width="1931" height="284" key="GridCell.Tab.0.right/73.23.1975.1129/2048.134.1920.1057@73.23.1975.1129" timestamp="1586844246999" />
     <state width="1931" height="355" key="GridCell.Tab.1.bottom" timestamp="1586329311317">
       <screen x="73" y="23" width="1975" height="1129" />
     </state>
