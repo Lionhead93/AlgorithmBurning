@@ -52,8 +52,7 @@ public class Day200414 {
             long i = Long.parseLong(integer + nonRepeating); // = a * number
             if (repeating.length() == 0) {
                 return new Fraction(i, a);
-            }
-            else {
+            } else {
                 long b = tenpow(nonRepeating.length() + repeating.length());
                 long j = Long.parseLong(integer + nonRepeating + repeating); // = b * number
                 return new Fraction(j - i, b - a);
@@ -89,12 +88,24 @@ public class Day200414 {
         return r;
     }
 
+    /**
+     * @author seongwou
+     * @since 2020/04/14 3:38 오후
+     * Given a positive integer num, write a function which returns True if num is a perfect square else False.
+     * <p>
+     * Note: Do not use any built-in library function such as sqrt.
+     **/
+    public boolean isPerfectSquare(int num) {
+
+        long r = 0L, b = 1L<<17, n = (long)num;
+        while((b>>=1) > 0L) r += ((r+b)*(r+b) <= n) ? b : 0L;
+        return r * r == num;
+
+    }
 
     public static void main(String[] args) {
         CombinationIterator combinationIterator = new CombinationIterator("abc", 2);
     }
-
-
 
 
 }
