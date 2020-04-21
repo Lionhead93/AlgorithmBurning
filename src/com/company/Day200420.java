@@ -1,8 +1,5 @@
 package com.company;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Day200420 {
 
     public ListNode mergeTwoList(ListNode l1, ListNode l2) {
