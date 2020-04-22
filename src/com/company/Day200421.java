@@ -1,5 +1,9 @@
 package com.company;
 
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Stack;
+
 public class Day200421 {
 
     /**
@@ -72,11 +76,39 @@ public class Day200421 {
      **/
     public int minDepth(TreeNode root) {
         if (root == null) return 0;
-
         if (root.left == null || root.right == null)
             return 1 + Math.max(minDepth(root.left), minDepth(root.right));
         else
             return 1 + Math.min(minDepth(root.left), minDepth(root.right));
+    }
+
+
+    public int cain(int[][] board, int[] moves) {
+
+        Stack<Integer> stack = new Stack<>();
+
+        for (int i : moves) {
+            int depth = board[i-1].length - 1;
+            int get = 0;
+            while (depth > -1) {
+                if (board[i-1][depth] == 0) {
+                    depth--;
+                } else {
+                    get = board[i-1][depth];
+                    break;
+                }
+            }
+            if (get == 0) continue;
+
+            if (!stack.isEmpty() && stack.peek() == get) {
+                stack.pop();
+            } else {
+                stack.push(get);
+            }
+        }
+
+        return stack.size();
+
     }
 
 }
