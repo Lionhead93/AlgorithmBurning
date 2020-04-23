@@ -75,6 +75,7 @@ public class Day200422 {
                 } else {
                     high--;
                 }
+
             }
         }
 
