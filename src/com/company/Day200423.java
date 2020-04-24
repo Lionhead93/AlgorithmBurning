@@ -1,7 +1,7 @@
 package com.company;
 
 public class Day200423 {
-    public static int reverse(int x) {
+    public int reverse(int x) {
         boolean minus = false;
         if (x < 0) minus = true;
 
@@ -49,12 +49,14 @@ public class Day200423 {
 
     }
 
-    public static String masking(String s) {
-        String concat = s.substring(0, s.length() - 4).concat("****");
-        return concat;
+    public String masking(String s) {
+        String answer = "";
+
+        for (int i = 0; i < s.length() - 4; i++) {
+            answer += "*";
+        }
+
+        return answer.concat(s.substring(s.length() - 4, s.length()));
     }
 
-    public static void main(String[] args) {
-        System.out.println(masking("15151515151515"));
-    }
 }
