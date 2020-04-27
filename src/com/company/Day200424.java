@@ -40,7 +40,7 @@ public class Day200424 {
 
     public void helper(String digits, String target) {
 
-        if (digits.length()==0) {
+        if (digits.length() == 0) {
             answer.add(target);
             return;
         }
