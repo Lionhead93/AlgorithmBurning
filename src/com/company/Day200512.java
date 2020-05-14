@@ -20,7 +20,7 @@ public class Day200512 {
 
     }
 
-    private int climb(int curr, int n, int[] move,) {
+    private int climb(int curr, int n, int[] move) {
 
         if(curr == n) return 1;
         if(curr > n) return 0;
