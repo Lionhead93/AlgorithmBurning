@@ -7,9 +7,6 @@ top() -- Get the top element.
 getMin() -- Retrieve the minimum element in the stack.
 */
 
-/**
- * initialize your data structure here.
- */
 var MinStack = function () {
   this.stack = [];
   this.minStack = [];
