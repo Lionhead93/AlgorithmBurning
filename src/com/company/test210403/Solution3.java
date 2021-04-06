@@ -55,5 +55,5 @@ public class Solution3 {
         }
         return max;
     }
-    
+
 }
