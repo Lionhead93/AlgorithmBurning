@@ -24,6 +24,16 @@ public class Day210408 {
      * @return
      */
     public int climbStairs(int n) {
-        return 0;
+        return up(1, n) + up(2, n);
     }
+    private int up(int current, int n) {
+        if(current == n) {
+            return 1;
+        }
+        if(current>n) {
+            return 0;
+        }
+        return up(current+1,n) + up(current+2, n);
+    }
+
 }
