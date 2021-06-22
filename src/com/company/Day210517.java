@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.Stack;
+
 public class Day210517 {
     public int[] solution(int[] prices) {
         Stack<Integer> beginIdxs = new Stack<>();
