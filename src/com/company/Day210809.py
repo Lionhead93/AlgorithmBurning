@@ -36,3 +36,11 @@ def solution(L, x):
 
 # 힌트 2: 리스트의 index() 메서드는, 인자로 주어지는 원소가 리스트 내에 존재하지 않을 때 ValueError 를 일으킵니다.
 # 이것을 try ... except 로 처리해도 되고, "if x in L" 과 같은 조건문으로 특정 원소가 리스트 내에 존재하는지를 판단해도 됩니다.
+
+def solution(L, x):
+    answer = []
+    for l in range(len(L)) :
+        if L[l] == x :
+            answer.append(l)
+
+    return answer if len(answer) > 0 else [-1]
